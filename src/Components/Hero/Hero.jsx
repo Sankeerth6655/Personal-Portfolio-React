@@ -1,10 +1,11 @@
 import './Hero.css'
+import main_img from '../../assets/Sankeerth-New.jpg'
 import profile_img from '../../assets/profile_img.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 function Hero(){
     return (
         <div id='hero' className='hero'>
-            <img src='src\assets\Sankeerth-New.jpg' alt="" />
+            <img src={main_img} alt="" />
             <h1><span>Hi, I'm Sankeerth Gandla</span></h1>
             <p>Frontend Developer from Hyderabad, India, passionate about crafting modern, responsive, and user-friendly web applications with JavaScript.</p>
             <div className="hero-action">
