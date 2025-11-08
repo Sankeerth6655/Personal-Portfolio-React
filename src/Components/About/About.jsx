@@ -11,7 +11,7 @@ function About(){
             </div>
             <div className="about-sections">
                 <div className="about-left">
-                    <img src="src\assets\Sankeerth-New.jpg" height='550px' width='500px' style={{borderRadius:'20px'}} alt="" />
+                    <img src="src/assets/Sankeerth-New.jpg" height='550px' width='500px' style={{borderRadius:'20px'}} alt="" />
                 </div>
                 <div className="about-right">
                     <div className="about-para">
