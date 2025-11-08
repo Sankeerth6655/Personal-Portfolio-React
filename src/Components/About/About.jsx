@@ -1,4 +1,5 @@
 import './About.css'
+import main_img from '../../assets/Sankeerth-New.jpg'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import profile_img from '../../assets/about_profile.svg'
 
@@ -11,7 +12,7 @@ function About(){
             </div>
             <div className="about-sections">
                 <div className="about-left">
-                    <img src="src/assets/Sankeerth-New.jpg" height='550px' width='500px' style={{borderRadius:'20px'}} alt="" />
+                    <img src={main_img} height='550px' width='500px' style={{borderRadius:'20px'}} alt="" />
                 </div>
                 <div className="about-right">
                     <div className="about-para">
